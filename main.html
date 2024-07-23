@@ -3,11 +3,64 @@
 <html>
 
 <head>
+	<style>
+		:root {
+    background-color: rgb(135, 206, 235); 
+
+article p:first-child {
+    color: white; 
+    background-color: black; 
+}
+
+article p:nth-child(2) {
+    color: #333; 
+}
+
+article p:last-child {
+    color: #f00; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ul li {
+    width: 50%;
+    padding: 10px;
+    background-color: #ccc; 
+}
+
+ul li:nth-child(odd) {
+    background-color: #fff; 
+}
+
+ul li:first-child, ul li:last-child {
+    font-size: 22px; 
+}
+
+ul li:nth-last-child(3) {
+background-color: pink;
+}
+	</style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<article>
+		    <p>This is it</p>
+			<p>How are you</p>
+		    <p>who are you</p>
+		    <p>That is good</p>
+	</article>
+	<ul>
+		<li>First Iteam</li>
+		<li>Second Iteam</li>
+		<li>Third Iteam</li>
+		<li>Fourth Iteam</li>
+		<li>Fifth Iteam</li>
+	</ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
